@@ -16,7 +16,7 @@ notifications:
 slack: fossasia:3pMkQrSogvEMfnu9aJDW2ZYC
 env:
   global:
-  - PACKAGE_NAME=meilix-systemlock
+  - PACKAGE_NAME=systemlock_0.1
 
 before_install:
 - export BUILD_VERSION=$(date "+%Y%m%d").$TRAVIS_BUILD_NUMBER
